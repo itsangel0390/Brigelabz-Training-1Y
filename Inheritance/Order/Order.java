@@ -1,0 +1,8 @@
+package Inheritance.Order;
+class Order {
+    int orderId;
+    String orderDate;
+    String getOrderStatus() {
+        return "Order Placed";
+    }
+}
